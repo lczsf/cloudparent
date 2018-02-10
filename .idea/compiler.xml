@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-hystrix" />
+        <module name="producer" />
+        <module name="producer-zuul" />
+        <module name="server-cluster" />
+        <module name="server-cluster1" />
+        <module name="server-cluster2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudparent" target="1.5" />
+      <module name="consumer-hystrix" target="1.8" />
+      <module name="producer" target="1.8" />
+      <module name="producer-zuul" target="1.8" />
+      <module name="server-cluster" target="1.8" />
+      <module name="server-cluster1" target="1.8" />
+      <module name="server-cluster2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
